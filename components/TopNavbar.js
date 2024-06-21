@@ -20,28 +20,28 @@ const TopNavbar = () => {
         </div>
       </div>
       <div className="flex  space-x-3 ">
-        <Link href="https://www.facebook.com" className="hover:bg-blue-600 hover:text-white flex items-center space-x-1">
+        <Link href="https://www.facebook.com/groups/3716364858690216" className="hover:bg-blue-600 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-facebook md:text-xl text-lg'></i>
         </Link>
-        <Link href="https://plus.google.com" className="hover:bg-red-600 hover:text-white flex items-center space-x-1">
+        <Link href="https://www.google.com/search?q=ehsas+lab" className="hover:bg-red-600 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-google-plus md:text-xl text-lg'></i>
         </Link>
         <Link href="https://twitter.com" className="hover:bg-blue-400 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-twitter md:text-xl text-lg'></i>
         </Link>
-        <Link href="https://linkedin.com" className="hover:bg-blue-700 hover:text-white flex items-center space-x-1">
+        <Link href="https://www.linkedin.com/company/ehsaslabs/mycompany" className="hover:bg-blue-700 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-linkedin md:text-xl text-lg'></i>
         </Link>
-        <Link href="https://pinterest.com" className="hover:bg-red-600 hover:text-white flex items-center space-x-1">
+        <Link href="https://www.pinterest.com/hassamnwl/" className="hover:bg-red-600 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-pinterest md:text-xl text-lg'></i>
         </Link>
-        <Link href="https://skype.com" className="hover:bg-blue-400 hover:text-white flex items-center space-x-1">
+        <Link href="https://www.skype.com/en/" className="hover:bg-blue-400 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-skype md:text-xl text-lg'></i>
         </Link>
         <Link href="https://vimeo.com" className="hover:bg-blue-500 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-vimeo md:text-xl text-lg'></i>
         </Link>
-        <Link href="https://youtube.com" className="hover:bg-red-600 hover:text-white flex items-center space-x-1">
+        <Link href="https://www.youtube.com/@ehsaslabs" className="hover:bg-red-600 hover:text-white flex items-center space-x-1">
           <i className='bx bxl-youtube md:text-xl text-lg'></i>
         </Link>
       </div>
