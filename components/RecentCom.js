@@ -127,7 +127,7 @@ const RecentCom = ({ title }) => {
 
       <div className="mt-4 flex justify-center">
        
-          <a href='/course'>1 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <a href='/course'> <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
           View All {title}
         </button>
         </a>
