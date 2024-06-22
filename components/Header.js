@@ -15,7 +15,7 @@ const Header = () => {
         <div>
           <div className="text-white bg-black flex justify-between  gap-x-3 p-5">
             <div className="h-[49px] flex justify-center gap-x-10 items-center">
-              <div className="border relative px-2 flex items-center hover:bg-red-600">
+              <div className=" relative px-2 flex items-center ">
                 <img className="h-[47px]" src="/eg.png" alt="" />
                 <h1 className="font-bold">Ehsas Lab</h1>
                 {toogle ?
