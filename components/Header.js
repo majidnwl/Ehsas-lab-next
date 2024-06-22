@@ -16,14 +16,14 @@ const Header = () => {
           <div className="text-white bg-black flex justify-between  gap-x-3 p-5">
             <div className="h-[49px] flex justify-center gap-x-10 items-center">
               <div className=" relative px-2 flex items-center ">
-               <Link href="/">
+               <a href="/" className="md:flex block md:gap-x-1">
                    <img className="h-[47px]" src="/eg.png" alt="" />
                 <h1 className="font-bold">Ehsas Lab</h1>
-    </Link> 
+    </a> 
                 {toogle ?
                  
 
-                    <ul className="flex-col gap-y-6 z-50 border-t-2 border-gray-400 px-11  absolute top-[63px] w-[250px] left-[-1.5rem] bg-black items-center md:hidden  md:font-bold">
+                    <ul className="flex-col gap-y-6 z-50 border-t-2 border-gray-400 px-11  absolute top-[65px] w-[100px] left-[-1.5rem] bg-black items-center md:hidden  md:font-bold">
                       <Link href=""><li className="hover:border-b-2 hover:border-gray-600 hover:bg-green-600">Home</li></Link>
                       <Link href="/about"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-green-600">About</li></Link>
                       <Link href="/course"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-green-600">Course</li></Link>
