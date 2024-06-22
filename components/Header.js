@@ -16,8 +16,10 @@ const Header = () => {
           <div className="text-white bg-black flex justify-between  gap-x-3 p-5">
             <div className="h-[49px] flex justify-center gap-x-10 items-center">
               <div className=" relative px-2 flex items-center ">
-                <img className="h-[47px]" src="/eg.png" alt="" />
+               <Link href="/">
+                   <img className="h-[47px]" src="/eg.png" alt="" />
                 <h1 className="font-bold">Ehsas Lab</h1>
+    </Link> 
                 {toogle ?
                  
 
@@ -33,7 +35,7 @@ const Header = () => {
                 }
               </div>
 
-              <i>
+             
 
                 <ul className="md:flex z-auto md:items-center hidden md:gap-x-10 md:font-bold">
                   <Link href="/"><li className="cursor-pointer active:text-blue-400 hover:border-b-2">Home</li></Link>
@@ -43,7 +45,7 @@ const Header = () => {
                   <Link href="/forums"><li className="cursor-pointer active:text-blue-400 hover:border-b-2">Forums</li></Link>
                   <Link href="/contact"><li className="cursor-pointer active:text-blue-400 hover:border-b-2">Contact</li></Link>
                 </ul>
-              </i>
+              
             </div>
 
 
