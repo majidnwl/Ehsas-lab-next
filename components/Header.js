@@ -21,9 +21,9 @@ const Header = () => {
                 <h1 className="font-bold">Ehsas Lab</h1>
     </a> 
                 {toogle ?
-                 
+                 // absolute top-[70px]left-[-1.5rem]
 
-                    <ul className="flex-col gap-y-6 z-50 border-t-2 border-gray-400 px-11  absolute top-[70px] w-[150px] left-[-1.5rem] bg-black items-center md:hidden  md:font-bold">
+                    <ul className="flex-col gap-y-6 z-50 border-t-2 border-gray-400 px-11   w-[100px]  bg-black items-center md:hidden  md:font-bold">
                       <Link href=""><li className="hover:border-b-2 hover:border-gray-600 hover:bg-green-600">Home</li></Link>
                       <Link href="/about"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-green-600">About</li></Link>
                       <Link href="/course"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-green-600">Course</li></Link>
