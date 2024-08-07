@@ -4,11 +4,11 @@ import Link from 'next/link'
 
 const page = () => {
     return (
-        <div>
+        <div className='bg-[#05184e] text-white'>
             <Header />
             {/* <Hero /> */}
             <div className="relative bg-cover bg-center md:bg-top h-[40vh] md:h-[20vh]" style={{ backgroundImage: `url('/h.jpg')` }}>
-                <div className="bg-[#f4f4f7] absolute md:bottom-0 bottom-[-2px] w-full py-6  ">
+                <div className="bg-[#132148] absolute md:bottom-0 bottom-[-2px] w-full py-6  ">
                     <div className="max-w-4xl mx-auto flex  justify-center md:justify-between items-center">
                         <div>
                             <h1 className="font-bold text-2xl md:text-left text-center">
@@ -34,14 +34,14 @@ const page = () => {
                 </div>
 
             </div>
-            {/* <div className="bg-white">
+            {/* <div className="bg-[#132148]">
                 <div className="container mx-auto py-12">
                     <h1 className="text-4xl font-bold text-center mb-4">
                         WE ARE TEACHME
                     </h1>
                     <i>
 
-                        <p className="text-lg text-gray-600 text-center mb-8">
+                        <p className="text-lg  text-center mb-8">
                             We build awesome course & university sites! Don't miss out join us
                             today!
                         </p>
@@ -56,19 +56,19 @@ const page = () => {
                             <div class="flex flex-col items-center">
                                 <img src="/Sha.png" alt="Image of a group of people working" class="w-96 rounded-lg shadow-md mb-6" />
                                 <h2 class="text-3xl font-bold text-gray-800 mb-4">What We Do</h2>
-                                <p class="text-lg text-gray-600 text-center">We build beautiful responsive course listing pages, search forms and singular learning systems.</p>
+                                <p class="text-lg  text-center">We build beautiful responsive course listing pages, search forms and singular learning systems.</p>
                             </div>
                         </div>
                         <div className="  p-6">
-                            <h2 className="text-2xl font-bold mb-2">Who We Are</h2>
-                            <p className="text-gray-600 mb-4">
+                            <h2 className="text-2xl font-bold mb-2 text-center">Who We Are</h2>
+                            <p className=" mb-4">
                                 With our professional course pages, you can earn money from your
                                 online courses. Join us today!
                             </p>
                         </div>
                         <div className="  p-6">
-                            <h2 className="text-2xl font-bold mb-2">Our Terms</h2>
-                            <p className="text-gray-600 mb-4">
+                            <h2 className="text-2xl font-bold mb-2 text-center">Our Terms</h2>
+                            <p className=" mb-4">
                                 Create and share outstanding quiz's, ask questions and get answer
                                 from your awesome clients!
                             </p>
@@ -76,19 +76,19 @@ const page = () => {
                     </div>
                 </div>
             </div> */}
-            <div className="bg-white">
+            <div className="">
                 <div className="container mx-auto py-12">
                     <h1 className="text-4xl font-bold text-center mb-4">
                         WE ARE TEACHME
                     </h1>
                     <i>
-                        <p className="text-lg text-gray-600 text-center mb-8">
+                        <p className="text-lg  text-center mb-8">
                             We build awesome course & university sites! Don't miss out join us
                             today!
                         </p>
                     </i>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto gap-6">
-                        <div className="bg-gray-800 text-white p-6 shadow-md">
+                        <div className="bg-[#132148] text-white p-6 shadow-md">
                             <img src="/w.jpg" alt="Image of a group of people working" className="w-full lg:w-96 rounded-lg shadow-md mb-6" />
                             <h2 className="text-2xl font-bold text-center">Welcome to Teachme</h2>
                             <p className="text-lg text-center mb-6">
@@ -98,31 +98,31 @@ const page = () => {
                                 Read More
                             </button>
                         </div>
-                        <div className="bg-white p-6 shadow-md">
+                        <div className="bg-[#132148] p-6 shadow-md">
                             <div className="flex flex-col items-center">
                                 <img src="/we.jpg" alt="Image of a group of people working" className="w-full lg:w-96 rounded-lg shadow-md mb-6" />
-                                <h2 className="text-3xl font-bold text-gray-800 mb-4">What We Do</h2>
-                                <p className="text-lg text-gray-600 text-center">
+                                <h2 className="text-3xl font-bold  mb-4">What We Do</h2>
+                                <p className="text-lg  text-center">
                                     We build beautiful responsive course listing pages, search forms, and singular learning systems.
                                 </p>
                             </div>
                         </div>
-                        <div className=" p-6 shadow-md">
+                        <div className=" bg-[#132148]    p-6 shadow-md">
                             <div className="flex flex-col items-center">
                                 <img src="/Sha.png" alt="Image of a group of people working" className="w-full lg:w-96 rounded-lg shadow-md mb-6" />
-                                <h2 className="text-2xl font-bold mb-2">Who We Are</h2>
-                                <p className="text-gray-600 mb-4">
+                                <h2 className="text-2xl font-bold mb-2 text-center">Who We Are</h2>
+                                <p className=" mb-4">
                                     With our professional course pages, you can earn money from your
                                     online courses. Join us today!
                                 </p>
                             </div>
                         </div>
-                        <div className=" p-6 shadow-md">
+                        <div className=" bg-[#132148] p-6 shadow-md">
                             <img src="/t.jpg" alt="Image of a group of people working" className="w-full lg:w-96  rounded-lg shadow-md mb-6" />
 
                             <div className="flex flex-col items-center">
-                                <h2 className="text-2xl font-bold mb-2">Our Terms</h2>
-                                <p className="text-gray-600 mb-4">
+                                <h2 className="text-2xl font-bold mb-2 text-center">Our Terms</h2>
+                                <p className=" mb-4">
                                     Create and share outstanding quizzes, ask questions, and get answers
                                     from your awesome clients!
                                 </p>
@@ -131,7 +131,7 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className="container mx-auto px-4 bg-gray-800 py-16">
+            <div className="container mx-auto px-4 bg-[#132148] py-16">
                 <div className="flex flex-col md:flex-row items-center justify-center md:justify-between gap-8">
                     <div className="md:w-1/2">
                         <img
@@ -175,29 +175,29 @@ const page = () => {
                 <div className='border-b border-blue-500 mx-auto mb-2 mt-[-30px] max-w-4xl'></div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div className="bg-white rounded-lg shadow-md p-6">
+                    <div className="bg-[#132148] rounded-lg shadow-md p-6">
                         <img src="/hu.png" alt="John Doe" className="w-full rounded-lg mb-4" />
-                        <h3 className="text-xl font-bold mb-2">Husnain</h3>
-                        <p className="text-gray-600 mb-2">Web Designer</p>
-                        <p className="text-gray-600">Lorem ipsum m dolor sit amet, consectetur adipiing elit.dolor sit amet, consectetur adipiing elit.</p>
+                        <h3 className="text-xl font-bold mb-2 text-center">Husnain</h3>
+                        <p className=" mb-2">Web Designer :</p>
+                        <p className="">Lorem ipsum m dolor sit amet, consectetur adipiing elit.dolor sit amet, consectetur adipiing elit.</p>
                     </div>
-                    <div className="bg-white rounded-lg shadow-md p-6">
+                    <div className="bg-[#132148] rounded-lg shadow-md p-6">
                         <img src="/aj.png" alt="Jenny Sendins" className="w-full rounded-lg mb-4" />
-                        <h3 className="text-xl font-bold mb-2">Aj King</h3>
-                        <p className="text-gray-600 mb-2">Graphic Designer</p>
-                        <p className="text-gray-600">Consectetur adipiing elit.dolor sit amet, consectetur adipiing lorem ipsum m dolor sit amet elit.</p>
+                        <h3 className="text-xl font-bold mb-2 text-center">Aj King</h3>
+                        <p className=" mb-2">Graphic Designer :</p>
+                        <p className="">Consectetur adipiing elit.dolor sit amet, consectetur adipiing lorem ipsum m dolor sit amet elit.</p>
                     </div>
-                    <div className="bg-white rounded-lg shadow-md p-6">
+                    <div className="bg-[#132148] rounded-lg shadow-md p-6">
                         <img src="/Sha.png" alt="Rick Bobsen" className="w-full rounded-lg mb-4" />
-                        <h3 className="text-xl font-bold mb-2">Sir Hassam</h3>
-                        <p className="text-gray-600 mb-2">Graphic Designer</p>
-                        <p className="text-gray-600">Adipiing consectetur adipiing elit.dolor sit amet, consectetur lorem ipsum m dolor sit amet elit.</p>
+                        <h3 className="text-xl font-bold mb-2 text-center">Sir Hassam</h3>
+                        <p className=" mb-2">Graphic  :</p>
+                        <p className="">Adipiing consectetur adipiing elit.dolor sit amet, consectetur lorem ipsum m dolor sit amet elit.</p>
                     </div>
-                    <div className="bg-white rounded-lg shadow-md p-6">
+                    <div className="bg-[#132148] rounded-lg shadow-md p-6">
                         <img src="/kam.png" alt="Andy Robinson" className="w-full rounded-lg mb-4" />
-                        <h3 className="text-xl font-bold mb-2">Kamran Sharif</h3>
-                        <p className="text-gray-600 mb-2">Fashion Designer</p>
-                        <p className="text-gray-600">Dolor consectetur adipiing elit.dolor sit amet, consectetur adipiing lorem ipsum m sit amet elit.</p>
+                        <h3 className="text-xl font-bold mb-2 text-center">Kamran Sharif</h3>
+                        <p className=" mb-2">Fashion Designer :</p>
+                        <p className="">Dolor consectetur adipiing elit.dolor sit amet, consectetur adipiing lorem ipsum m sit amet elit.</p>
                     </div>
                 </div>
             </div>
@@ -223,31 +223,31 @@ const page = () => {
                         </p>
                         <hr />
                         <p class="mb-2 flex items-center">
-                            <i class="bx bx-link mr-2 text-blue-500"></i>
+                            <i class="bx bx-link mr-2 "></i>
                             <Link
                                 href="http://www.yoursite.com"
-                                class="text-blue-500 hover:underline"
+                                class=" hover:underline"
                             >
                                 www.yoursite.com
                             </Link>
                         </p>
                         <p class="mb-2 flex items-center">
-                            <i class="bx bx-envelope mr-2 text-blue-500"></i>
+                            <i class="bx bx-envelope mr-2 "></i>
                             <Link
                                 href="mailto:info@yoursite.com"
-                                class="text-blue-500 hover:underline"
+                                class=" hover:underline"
                             >
                                 info@yoursite.com
                             </Link>
                         </p>
                         <p class="mb-2 flex items-center">
-                            <i class="bx bx-phone mr-2 text-blue-500"></i> +90 123 45 67
+                            <i class="bx bx-phone mr-2 "></i> +90 123 45 67
                         </p>
                         <p class="mb-2 flex items-center">
-                            <i class="bx bx-fax mr-2 text-blue-500"></i> +90 123 45 68
+                            <i class="bx bx-fax mr-2 "></i> +90 123 45 68
                         </p>
                         <p class="mb-2 flex items-center">
-                            <i class="bx bxs-map mr-2 text-blue-500"></i> Envato INC 22
+                            <i class="bx bxs-map mr-2 "></i> Envato INC 22
                             Elizabeth St.
                         </p>
                         <hr className="mb-4" />
@@ -306,56 +306,56 @@ const page = () => {
                     <div className="w-full md:w-1/2 lg:w-2/3 p-2">
                         <form>
                             <div className="mb-4">
-                                <label htmlFor="name" className="block text-gray-700">
+                                <label htmlFor="name" className="block ">
                                     Name
                                 </label>
                                 <input
                                     type="text"
                                     id="name"
-                                    className="w-full p-3 rounded border border-gray-300"
+                                    className="w-full p-3 rounded border text-[#132148]"
                                     placeholder="Your Name"
                                 />
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="email" className="block text-gray-700">
+                                <label htmlFor="email" className="block ">
                                     Email
                                 </label>
                                 <input
                                     type="email"
                                     id="email"
-                                    className="w-full p-3 rounded border border-gray-300"
+                                    className="w-full p-3 rounded border text-[#132148]"
                                     placeholder="Your Email"
                                 />
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="phone" className="block text-gray-700">
+                                <label htmlFor="phone" className="block ">
                                     Phone
                                 </label>
                                 <input
                                     type="text"
                                     id="phone"
-                                    className="w-full p-3 rounded border border-gray-300"
+                                    className="w-full p-3 rounded border text-[#132148]"
                                     placeholder="Your Phone Number"
                                 />
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="subject" className="block text-gray-700">
+                                <label htmlFor="subject" className="block ">
                                     Subject
                                 </label>
                                 <input
                                     type="text"
                                     id="subject"
-                                    className="w-full p-3 rounded border border-gray-300"
+                                    className="w-full p-3 rounded border text-[#132148]"
                                     placeholder="Subject"
                                 />
                             </div>
                             <div className="mb-4">
-                                <label htmlFor="message" className="block text-gray-700">
+                                <label htmlFor="message" className="block ">
                                     Message
                                 </label>
                                 <textarea
                                     id="message"
-                                    className="w-full p-3 rounded border border-gray-300"
+                                    className="w-full p-3 rounded border text-[#132148]"
                                     placeholder="Message Below"
                                     defaultValue={""}
                                 />
@@ -363,7 +363,7 @@ const page = () => {
                             <div className="text-center md:text-right">
                                 <button
                                     type="submit"
-                                    className="bg-blue-500 text-white px-6 py-3 w-full md:w-auto  rounded"
+                                    className="bg-[#132148] text-white px-6 py-3 w-full md:w-auto  rounded"
                                 >
                                     Send Form
                                 </button>

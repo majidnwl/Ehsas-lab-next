@@ -3,11 +3,11 @@ import { Header, Hero, TopNavbar } from "../../../components";
 
 const Blog = () => {
   return (
-    <div>
+    <div className="bg-[#05184e]">
       <Header />
       {/* <Hero /> */}
       <div className="relative bg-cover bg-center md:bg-top h-[40vh] md:h-[20vh]" style={{ backgroundImage: `url('/h.jpg')` }}>
-            <div className="bg-[#f4f4f7] absolute md:bottom-0 bottom-[-2px] w-full py-6  ">
+            <div className="bg-[#132148] text-white absolute md:bottom-0 bottom-[-2px] w-full py-6  ">
       
         <div className="max-w-4xl mx-auto flex  justify-center md:justify-between items-center">
           <div>
@@ -37,24 +37,27 @@ const Blog = () => {
       <div className="container mx-auto py-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:max-w-6xl md:mx-auto mx-4  md:grid-cols-3 gap-6">
           {/* Card 1 */}
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white shadow-md  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
+
             <img
               src="/basic.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Web Design
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -70,24 +73,26 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white shadow-md  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
             <img
               src="/gra.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Graphic Designing
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -103,24 +108,26 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
             <img
               src="web.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Web Development
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -136,24 +143,27 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white shadow-md  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
+
             <img
               src="/basic.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Web Design
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -169,24 +179,26 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white shadow-md  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
             <img
               src="/gra.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Graphic Designing
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -202,24 +214,26 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
             <img
               src="web.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Web Development
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -235,24 +249,27 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white shadow-md  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
+
             <img
               src="/basic.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Web Design
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -268,24 +285,26 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white shadow-md  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
             <img
               src="/gra.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Graphic Designing
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -301,24 +320,26 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white shadow-md  overflow-hidden">
+          <div className="bg-[#132148] text-white  overflow-hidden">
+          <div className='w-[100%] px-5 py-2'>
             <img
               src="web.jpg"
               alt="E-Learning"
               className="w-full h-64 object-bottom "
             />
+            </div>
             <div className="p-4">
-              <p className="text-gray-600 text-center text-sm mb-2">
+              <p className=" text-center text-sm mb-2">
                 Web Development
               </p>
               <h2 className="text-lg font-semibold mb-2">
                 E-Learning System For Everything
               </h2>
-              <p className="text-gray-600 mb-4">
+              <p className=" mb-4">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
-              <div className="flex items-center justify-between text-sm text-gray-600">
+              <div className="flex items-center justify-between text-sm ">
                 <div className="flex items-center">
                   <img
                     className="w-8 h-8 rounded-full mr-2"
@@ -334,10 +355,11 @@ const Blog = () => {
               </div>
             </div>
           </div>
+     
         </div>
       </div>
 
-      <div className="bg-[#3ca1db]">
+      <div className="bg-[#132148]">
         <div className=" my-4 md:max-w-4xl mx-auto  flex-col md:flex-row flex items-center justify-center px-4 md:justify-between py-10 text-white">
           <div className="md:m-0 mb-4">
             <h1 className="md:text-2xl text-xl font-bold">
@@ -353,7 +375,7 @@ const Blog = () => {
             href="/sing-up
     "
           >
-            <button className="text-md font-bold bg-white rounded-full hover:bg-gray-900  duration-700 hover:text-white py-2 px-4 text-gray-950">
+            <button className="text-md font-bold bg-[#132148] rounded-full hover:bg-gray-900  duration-700 text-white py-2 px-4 ">
               Create Account
             </button>
           </Link>

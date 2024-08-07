@@ -12,12 +12,12 @@ const Forums = () => {
     { name: "Time to Meet with Community", description: "Lorem Ipsum is simply dummy text of the ppesetting industry.", posts: 8698, topics: 1798, imgSrc: "/Sha.png" },
   ];
   return (
-    <div>
+    <div className="bg-[#05184e] text-white">
       <Header />
       {/* <Hero /> */}
 
       <div className="relative bg-cover bg-center md:bg-top h-[40vh] md:h-[20vh]" style={{ backgroundImage: `url('/h.jpg')` }}>
-        <div className="bg-[#f4f4f7] absolute md:bottom-0 bottom-[-2px] w-full py-6  ">
+        <div className="bg-[#132148] absolute md:bottom-0 bottom-[-2px] w-full py-6  ">
           <div className="max-w-4xl mx-auto flex  justify-center md:justify-between items-center">
             <div>
               <h1 className="font-bold text-2xl md:text-left text-center">
@@ -44,7 +44,7 @@ const Forums = () => {
       </div>
 
       <div className="container mx-auto p-4">
-        <div className="bg-blue-500 text-white p-4 ">
+        <div className="bg-[#132148] text-white p-4 ">
           <div className="grid grid-cols-3 gap-4">
             <div className="col-span-1">FORUMS</div>
             <div className="text-right col-span-1 md:block hidden">POSTS</div>
