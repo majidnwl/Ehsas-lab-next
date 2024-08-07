@@ -79,7 +79,7 @@ const RecentCom = ({ title }) => {
     }
   };
   return (
-    <div className="p-4">
+    <div className="p-4 bg-[#05184e] text-white border-black border-y-[10px]">
       <div className="flex items-center justify-between mx-5">
         <h2 className="text-2xl font-bold mb-4 text-center md:text-left">Recent {title}</h2>
         <div className="flex items-center">
@@ -95,17 +95,17 @@ const RecentCom = ({ title }) => {
         msOverflowStyle: 'none',     // Internet Explorer and Edge
         WebkitScrollbarDisplay: 'none',  // Chrome, Safari, and Opera
       }}>
-        <div className="flex flex-nowrap">
+        <div className="flex flex-nowrap ">
           {courses.map((course, index) => (
             <div key={index} className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex-shrink-0">
-              <div className="border border-gray-400 bg-white rounded-lg p-4 flex flex-col justify-between leading-normal shadow-md h-full">
+              <div className="border border-gray-400 bg-[#132148] text-white rounded-lg p-4 flex flex-col justify-between leading-normal shadow-md h-full">
                 <div className="mb-8 relative flex-grow">
                   <img className="w-full h-48 rounded-md object-cover" src={course.image} alt="Course" />
                   {course.featured && (
-                    <div className="absolute top-0 left-0 bg-blue-500 text-white p-2 rounded-tr-md rounded-bl-md">Featured</div>
+                    <div className="absolute top-0 left-0 bg-[#1b2d5e] text-white p-2 rounded-tr-md rounded-bl-md">Featured</div>
                   )}
-                  <div className="text-gray-900 font-bold text-xl mb-2">{course.title}</div>
-                  <p className="text-gray-700 text-base">${course.price.toFixed(2)}</p>
+                  <div className=" font-bold text-xl mb-2">{course.title}</div>
+                  <p className="text-base">${course.price.toFixed(2)}</p>
                   <div className="mt-2 flex items-center">
                     {[...Array(course.rating)].map((_, i) => (
                       <i key={i} className='bx bxs-star text-yellow-500'></i>
@@ -115,8 +115,8 @@ const RecentCom = ({ title }) => {
                 <div className="flex items-center">
                   <img className="w-10 h-10 rounded-full mr-4" src="/Sha.png" alt="Instructor" />
                   <div className="text-sm">
-                    <p className="text-gray-900 leading-none">{course.instructor}</p>
-                    <p className="text-gray-600">{course.duration} | {course.students} students</p>
+                    <p className=" leading-none">{course.instructor}</p>
+                    <p >{course.duration} | {course.students} students</p>
                   </div>
                 </div>
               </div>
@@ -127,7 +127,7 @@ const RecentCom = ({ title }) => {
 
       <div className="mt-4 flex justify-center">
        
-          <a href='/course'> <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <a href='/course'> <button className="bg-[#05184e] hover:bg-[#3d9b05] text-white font-bold py-2 px-4 rounded duration-1000">
           View All {title}
         </button>
         </a>

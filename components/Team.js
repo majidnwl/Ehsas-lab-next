@@ -45,18 +45,20 @@ const Teacher = [
   ];
 const Team = ({title,de}) => {
   return (
-    <div className="p-4">
+    <div className="p-4 bg-[#05184e] text-white border-black border-y-[10px]">
       <h2 className="text-2xl text-center font-bold mb-2 ">{title}</h2>
       {de ? <p className="text-wrap text-center mb-8">We build awesome course & university sites! Don't miss out join us today!</p>:''}
       
       <div className="flex flex-wrap justify-center">
         {services.map((service, index) => (
           <div key={index} className="max-w-sm w-full sm:w-1/2 lg:w-1/4 p-4">
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="bg-[#132148] shadow-lg rounded-lg overflow-hidden">
+            <div className='w-[100%] px-5 py-2'>
               <img className="w-full h-48" src={service.image} alt={service.title} />
+              </div>
               <div className="p-4">
-                <div className="text-gray-900 font-bold text-xl mb-2">{service.title}</div>
-                <p className="text-gray-700 text-base">{service.description}</p>
+                <div className=" font-bold text-xl mb-2">{service.title}</div>
+                <p className=" text-base">{service.description}</p>
               </div>
             </div>
           </div>
