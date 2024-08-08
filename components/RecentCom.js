@@ -288,33 +288,58 @@ const RecentCom = ({ title }) => {
         WebkitScrollbarDisplay: 'none',
       }}>
         <div className="flex flex-nowrap">
-          {courses.map((course, index) => (
-            <div key={index} className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex-shrink-0">
-              <div className="group relative border border-gray-400 bg-[#132148] text-white rounded-lg p-4 flex flex-col justify-between leading-normal shadow-md h-full transform transition-all duration-300">
-                <div className="mb-8 relative flex-grow">
-                  <img className="w-full h-48 rounded-md object-cover" src={course.image} alt="Course" />
-                  {course.featured && (
-                    <div className="absolute top-0 left-0 bg-[#1b2d5e] text-white p-2 rounded-tr-md rounded-bl-md">Featured</div>
-                  )}
-                  <div className="font-bold text-xl mb-2">{course.title}</div>
-                  <p className="text-base">${course.price.toFixed(2)}</p>
-                  <div className="mt-2 flex items-center">
-                    {[...Array(course.rating)].map((_, i) => (
-                      <i key={i} className='bx bxs-star text-yellow-500'></i>
-                    ))}
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <img className="w-10 h-10 rounded-full mr-4" src="/Sha.png" alt="Instructor" />
-                  <div className="text-sm">
-                    <p className="leading-none">{course.instructor}</p>
-                    <p>{course.duration} | {course.students} students</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+  {courses.map((course, index) => (
+    <div 
+      key={index} 
+      className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex-shrink-0 transition-transform duration-300 ease-in-out"
+      style={{
+        opacity: '1', // Default opacity
+        transform: 'scale(1)', // Default scale
+        transition: 'transform 0.3s ease-in-out, opacity 0.3s ease-in-out'
+      }}
+      onMouseEnter={(e) => {
+        e.currentTarget.style.transform = 'scale(1.05)';
+        // Decrease opacity of other cards
+        Array.from(e.currentTarget.parentNode.children).forEach(sibling => {
+          if (sibling !== e.currentTarget) {
+            sibling.style.opacity = '0.5';
+          }
+        });
+      }}
+      onMouseLeave={(e) => {
+        e.currentTarget.style.transform = 'scale(1)';
+        // Reset opacity of other cards
+        Array.from(e.currentTarget.parentNode.children).forEach(sibling => {
+          sibling.style.opacity = '1';
+        });
+      }}
+    >
+      <div className="group relative border border-gray-400 bg-[#132148] text-white rounded-lg p-4 flex flex-col justify-between leading-normal shadow-md h-full">
+        <div className="mb-8 relative flex-grow">
+          <img className="w-full h-48 rounded-md object-cover" src={course.image} alt="Course" />
+          {course.featured && (
+            <div className="absolute top-0 left-0 bg-[#1b2d5e] text-white p-2 rounded-tr-md rounded-bl-md">Featured</div>
+          )}
+          <div className="font-bold text-xl mb-2">{course.title}</div>
+          <p className="text-base">${course.price.toFixed(2)}</p>
+          <div className="mt-2 flex items-center">
+            {[...Array(course.rating)].map((_, i) => (
+              <i key={i} className='bx bxs-star text-yellow-500'></i>
+            ))}
+          </div>
         </div>
+        <div className="flex items-center">
+          <img className="w-10 h-10 rounded-full mr-4" src="/Sha.png" alt="Instructor" />
+          <div className="text-sm">
+            <p className="leading-none">{course.instructor}</p>
+            <p>{course.duration} | {course.students} students</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
 
       <div className="mt-4 flex justify-center">
