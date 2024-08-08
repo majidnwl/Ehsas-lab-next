@@ -3,11 +3,11 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className="container bg-[url('/login-new.jpeg')] mx-auto h-screen flex justify-center items-center">
-            <div className="w-full max-w-lg">
+        <div className="w-full bg-[url('/login-new.jpeg')] mx-auto  flex justify-center items-center">
+            <div className="w-full max-w-lg my-10">
                 <div className="leading-loose">
-                    <form className="max-w-xl m-4 p-10  hover:bg-white bg-transparent rounded shadow-xl">
-                        <p className="text-gray-800 font-medium">Register</p>
+                    <form className="max-w-xl m-4 p-10  md:bg-transparent bg-white md:hover:bg-white rounded shadow-xl">
+                        <p className="text-gray-800 text-xl text-center">Register</p>
                         <div className>
                             <label className="block text-sm text-gray-00" htmlFor="cus_name">Name</label>
                             <input className="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="cus_name" name="cus_name" type="text" required placeholder="Your Name" aria-label="Name" />

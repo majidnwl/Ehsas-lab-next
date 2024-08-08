@@ -4,10 +4,10 @@ import React from 'react'
 const page = () => {
   return (
 
-<div className="container bg-[url('/login-new.jpeg')] mx-auto h-screen flex justify-center items-center">
+<div className="w-full bg-[url('/login-new.jpeg')]  h-screen flex justify-center items-center">
   <div className="w-full max-w-lg">
     <div className="leading-loose">
-      <form className="max-w-xl m-4 p-10 bg-transparent hover:bg-white rounded shadow-xl">
+      <form className="max-w-xl m-4 p-10 md:bg-transparent bg-white md:hover:bg-white rounded shadow-xl">
         <p className="text-gray-800  text-center text-lg font-bold">Login</p>
         <div className="mt-4">
           <label className="block text-sm text-gray-600" htmlFor="username">Username</label>

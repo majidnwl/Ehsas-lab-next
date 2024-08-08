@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
 
         <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet' />
       </head>
-      <body style={{backgroundColor:'linear-gradient(to bottom, red, yellow);'}}>{children}</body>
+      <body className='font-mono' >{children}</body>
     </html>
   );
 }
