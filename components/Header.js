@@ -17,7 +17,7 @@ const Header = () => {
             <div className="h-[49px] flex justify-center  gap-x-10 items-center">
               <div className=" relative px-2 flex items-center ">
                 <a href="/" className="md:flex block  md:gap-x-1">
-                  <img className="h-[47px]" src="/eg copy.png" alt="" />
+                  <img className="h-[47px]" src="/eg.png" alt="" />
                   {/* <h1 className="font-bold">Ehsas Lab</h1> */}
                 </a>
                 {toogle ?
