@@ -50,20 +50,21 @@ const Team = ({title,de}) => {
       {de ? <p className="text-wrap text-center mb-8">We build awesome course & university sites! Don't miss out join us today!</p>:''}
       
       <div className="flex flex-wrap justify-center">
-        {services.map((service, index) => (
-          <div key={index} className="max-w-sm w-full sm:w-1/2 lg:w-1/4 p-4">
-            <div className="bg-[#132148] shadow-lg rounded-lg overflow-hidden">
-            <div className='w-[100%] px-5 py-2'>
-              <img className="w-full h-48" src={service.image} alt={service.title} />
-              </div>
-              <div className="p-4">
-                <div className=" font-bold text-xl mb-2">{service.title}</div>
-                <p className=" text-base">{service.description}</p>
-              </div>
+                {services.map((service, index) => (
+                    <div key={index} className="max-w-sm w-full sm:w-1/2 lg:w-1/4 p-4">
+                        <div className="bg-[#132148] shadow-lg h-full flex flex-col">
+                            <div className='w-[100%] px-5 py-2'>
+                                <img className="w-[100%]" src={service.image} alt={service.title} />
+                            </div>
+                            <div className="p-4 flex-grow">
+                                <h1 className='text-center hover:animate-ping text-xl mb-2 font-bold font-mono'>{service.name}</h1>
+                                <div className="font-bold text-md mb-1">{service.title} :</div>
+                                <p className="text-base">{service.description}</p>
+                            </div>
+                        </div>
+                    </div>
+                ))}
             </div>
-          </div>
-        ))}
-      </div>
     </div>
   )
 }

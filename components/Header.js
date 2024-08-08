@@ -54,7 +54,7 @@ const Header = () => {
               <i className='bx bx-search text-xl' ></i>
               <button className='bg-[#132148] hover:bg-[#20305d] rounded-full px-2 flex gap-x-2'><Link href='/login'>Login</Link>/<Link href='/register'>Sing-up</Link></button>
             </div>
-            <div className="md:hidden  flex gap-x-2 group items-center ">
+            <div className="md:hidden   flex gap-x-2 group items-center ">
               <button className='bg-[#132148]   px-2 flex gap-x-2'><Link href='/login'>Login</Link>/<Link href='/register'>Sing-up</Link></button>
               <i onClick={() => setToogle(!toogle)} class='bx bx-menu bg-gray-500 text-4xl' ></i>
 
