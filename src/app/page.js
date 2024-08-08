@@ -1,4 +1,4 @@
-import {Header, Hero, RecentCom, Team, TopNavbar} from '../../components/index'
+import {Header, Hero, RecentCom, SuccessStory, Team, TopNavbar} from '../../components/index'
 import ProTeachers from '../../components/ProTeachers'
 export default function Home() {
   return (
@@ -14,16 +14,17 @@ export default function Home() {
       <h1 className='font-bold  uppercase text-2xl text-center my-6'>Introduction</h1>
       <div className="flex border-collapse flex-col md:flex-row  gap-x-10 md:my-10 my-2 md:max-w-[85%] w-[90%] mx-auto  overflow-hidden">
         <div className="relative w-full md:w-1/2 h-80 mb-4 md:mb-0">
-          <video controls
+          {/* <video controls
             className="w-full h-full border-[10px]"
             poster="/t.jpg"
             title="YouTube video player"
             frameBorder=""
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen>
-            <source src="https://0.s3.envato.com/h264-video-previews/ec34ad1d-cba5-43a6-a1d0-a537b10e5879/759078.mp4"
+            <source src="https://youtu.be/gMEMCpvrUHg?t=7"
             />
-          </video>
+          </video> */}
+          <iframe  className="w-full h-full border-[10px]" src="https://www.youtube.com/embed/gMEMCpvrUHg" title="Ehsas Lab || Learning Place For Like-Minded People" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div className=" flex-1 md:mt-0  ">
           <p className="text-sm  uppercase font-semibold mb-2">Create Your Own Online Course</p>
@@ -42,12 +43,14 @@ export default function Home() {
               <p className="">2 Months</p>
             </div>
           </div>
-          <button className="md:w-[30%]  md:mx-[30%] bg-[#0833aad0] text-white py-2 px-4 mt-2  hover:bg-[#3d9b05] duration-1000">
+          <button className="md:w-[30%]  md:mx-[30%] border text-white py-2 px-4 mt-2  hover:bg-[#3d9b05] duration-1000">
             Start Here
           </button>
         </div>
       </div>
       </div>
+      {/* SuccessStory */}
+      <SuccessStory />
       {/* Recent Courses */}
       <RecentCom title='Courses' />
       {/* Our Services */}

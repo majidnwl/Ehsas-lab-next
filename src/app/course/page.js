@@ -70,7 +70,7 @@ const page = () => {
                                         <p className="">2 Months</p>
                                     </div>
                                 </div>
-                                <button className="md:w-auto w-full  bg-blue-900 text-white py-2 px-4 mt-2 hover:bg-blue-600 transition duration-300 ">
+                                <button className="md:w-auto w-full border duration-1000 hover:bg-[#3d9b05] text-white py-2 px-4 mt-2  ">
                                     Start Here
                                 </button>
                             </div>

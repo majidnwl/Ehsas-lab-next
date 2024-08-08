@@ -7,7 +7,7 @@ const Contact = () => {
       <Header />
       {/* <Hero /> */}
       <iframe
-        className="w-full  mt-4 border-b-[10px] border-white"
+        className="w-full  mt-4 border-y-[10px] border-white"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.253347262745!2d74.87034417593567!3d32.11645961744976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39195321c0f752bf%3A0x964b17d543d5b246!2sEhsas%20Lab!5e0!3m2!1sen!2s!4v1718873969336!5m2!1sen!2s"
         width={600}
         height={450}
@@ -178,7 +178,7 @@ const Contact = () => {
                 <div className="text-center md:text-right">
                   <button
                     type="submit"
-                    className="bg-[#0d2e89] text-white px-6 py-3 w-full md:w-auto  rounded"
+                    className="border duration-1000 hover:bg-[#3d9b05] text-white px-6 py-3 w-full md:w-auto  rounded"
                   >
                     Send Form
                   </button>

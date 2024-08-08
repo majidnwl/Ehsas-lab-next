@@ -375,7 +375,7 @@ const Blog = () => {
             href="/sing-up
     "
           >
-            <button className="text-md font-bold bg-[#132148] rounded-full hover:bg-gray-900  duration-700 text-white py-2 px-4 ">
+            <button className="text-md font-bold  rounded-full   border duration-1000 hover:bg-[#3d9b05] text-white py-2 px-4 ">
               Create Account
             </button>
           </Link>

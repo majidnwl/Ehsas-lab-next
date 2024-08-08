@@ -94,7 +94,7 @@ const page = () => {
                             <p className="text-lg text-center mb-6">
                                 Professional responsive and retina ready template for online learning websites!
                             </p>
-                            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full mx-auto block">
+                            <button className="border duration-1000 hover:bg-[#3d9b05] text-white font-bold py-2 px-6 rounded-full mx-auto block">
                                 Read More
                             </button>
                         </div>
@@ -158,7 +158,7 @@ const page = () => {
                             humour, or randomised believable. Suffered alteration in some form, by
                             injected humour, or randomised..
                         </p>
-                        <button className="bg-blue-500 md:w-32 w-full hover:bg-blue-700 text-white font-bold py-2 px-4  focus:outline-none focus:shadow-outline">
+                        <button className="border duration-1000 hover:bg-[#3d9b05] md:w-32 w-full  text-white font-bold py-2 px-4  focus:outline-none focus:shadow-outline">
                             Start Here
                         </button>
                     </div>
@@ -363,7 +363,7 @@ const page = () => {
                             <div className="text-center md:text-right">
                                 <button
                                     type="submit"
-                                    className="bg-[#132148] text-white px-6 py-3 w-full md:w-auto  rounded"
+                                    className="border duration-1000 hover:bg-[#3d9b05] text-white px-6 py-3 w-full md:w-auto  rounded"
                                 >
                                     Send Form
                                 </button>
