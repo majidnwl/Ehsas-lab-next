@@ -24,13 +24,13 @@ export default function Home() {
             <source src="https://youtu.be/gMEMCpvrUHg?t=7"
             />
           </video> */}
-          <iframe  className="w-full h-full border-[10px]" src="https://www.youtube.com/embed/gMEMCpvrUHg" title="Ehsas Lab || Learning Place For Like-Minded People" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe  className="w-full h-full border-[10px]" src="https://www.youtube.com/embed/gMEMCpvrUHg" title="Ehsas Lab || Learning Place For Like-Minded People" frameborder="0"  allowfullscreen></iframe>
         </div>
         <div className=" flex-1 md:mt-0  ">
-          <p className="text-sm  uppercase font-semibold mb-2">Create Your Own Online Course</p>
-          <h2 className="text-xl  font-bold mb-2">Course Introduction</h2>
+          <p className="text-sm  uppercase ">Create Your Own Online Course</p>
+          <h1 className="font-bold  uppercase text-2xl  my-6">COMMUNITY Introduction</h1>
           <p className=" mb-5">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised believable. Suffered alteration in some form, by injected humour, or randomised..
+          Ehsas Lab is a non-profitable community for likeminded people who want to explore their skills in a better way. The purpose of this community is to provide students with a platform to enhance employability by polishing their talent.
           </p>
           <div className="flex items-center mb-1">
             <img
