@@ -69,14 +69,14 @@ const ProTeachers = ({ title, de }) => {
                                 <p className="text-xs text-center">{service.description}</p>
                                 <div className="text-center text-lg my-2">{service.title}</div>
                                 <div className="flex justify-center mt-auto space-x-4">
-                                    <a href={service.linkedin} className=" bg-[#3d9b05] rounded-full p-2 ">
-                                        <i className="bx bxl-linkedin text-2xl p-1"></i>
+                                    <a href={service.linkedin} className="">
+                                        <i className="bx bxl-linkedin bg-[#3d9b05] rounded-full text-lg p-1"></i>
                                     </a>
-                                    <a href={service.facebook} className="bg-[#3d9b05] rounded-full p-2">
-                                        <i className="bx bxl-facebook text-2xl p-1"></i>
+                                    <a href={service.facebook} className="">
+                                        <i className="bx bxl-facebook text-lg bg-[#3d9b05] rounded-full  p-1"></i>
                                     </a>
-                                    <a href={service.instagram} className="bg-[#3d9b05] rounded-full p-2">
-                                        <i className="bx bxl-instagram text-2xl p-1"></i>
+                                    <a href={service.instagram} className="">
+                                        <i className="bx bxl-instagram  bg-[#3d9b05] rounded-full  text-lg p-1"></i>
                                     </a>
                                 </div>
                             </div>
