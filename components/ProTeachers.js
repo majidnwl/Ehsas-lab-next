@@ -36,7 +36,7 @@ const services = [
         description: "( CEO )",
         flag: '/pak.png',
         image: "/Sha.png",
-        name: 'Sir Hassam',
+        name: 'Hassam Idrees',
         linkedin: '#',
         facebook: '#',
         instagram: '#',
@@ -68,7 +68,7 @@ const ProTeachers = ({ title, de }) => {
                                 <h1 className='text-center text-xl mb-2 capitalize font-bold'>{service.name}</h1>
                                 <p className="text-xs text-center">{service.description}</p>
                                 <div className="text-center text-lg my-2">{service.title}</div>
-                                <div className="flex justify-center mt-auto space-x-4">
+                                <div className="flex justify-center mt-auto space-x-2">
                                     <a href={service.linkedin} className="">
                                         <i className="bx bxl-linkedin bg-[#3d9b05] rounded-full text-lg p-1"></i>
                                     </a>
