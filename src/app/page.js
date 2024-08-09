@@ -11,7 +11,7 @@ export default function Home() {
       {/* Introdection */}
       <div className='border-separate border-black border-y-[10px] text-white bg-[#05184e]'>
 
-      <h1 className='font-bold  uppercase text-2xl text-center my-6'>Introduction</h1>
+      <h1 className='font-bold  capitalize text-4xl  text-center my-6'>Introduction</h1>
       <div className="flex border-collapse flex-col md:flex-row  gap-x-10 md:my-10 my-2 md:max-w-[85%] w-[90%] mx-auto  overflow-hidden">
         <div className="relative w-full md:w-1/2 h-80 mb-4 md:mb-0">
           {/* <video controls
@@ -58,7 +58,7 @@ export default function Home() {
       {/* Recent Post */}
       <RecentCom title='Post' />
       {/* Our Pro Teacher */}
-      <ProTeachers title="Our Pro Teacher" de={false} />
+      <ProTeachers title="Our Team" de={false} />
       <TopNavbar />
     </>
 
