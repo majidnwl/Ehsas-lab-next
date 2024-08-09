@@ -26,7 +26,7 @@ const services = [
 const Team = ({ title, de }) => {
   return (
     <div className="p-4 bg-[#05184e] text-white border-black border-y-[10px]">
-      <h2 className="text-2xl text-center font-bold mb-2">{title}</h2>
+      <h2 className="text-4xl capitalize text-center font-bold mb-2">{title}</h2>
       {de && <p className="text-wrap text-center mb-8">We build awesome course & university sites! Don't miss out join us today!</p>}
       
       <div className="flex flex-wrap justify-center">

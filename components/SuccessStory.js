@@ -49,7 +49,7 @@ const SuccessStory = () => {
 
   return (
     <div className="p-6 bg-[#002b5e] text-white min-h-screen flex flex-col items-center">
-      <h2 className="text-4xl font-bold mb-8 text-center text-gradient">Success Stories</h2>
+      <h2 className="font-bold mb-8 text-center text-4xl capitalize">Success Stories</h2>
       <p className="text-lg mb-6">Meet our legends who secured their future</p>
       
       <div className="flex items-center justify-center gap-4 mb-6">
