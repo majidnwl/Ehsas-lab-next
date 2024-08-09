@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4">
         <h1 className="text-white text-2xl md:text-5xl font-bold mb-2 md:mb-4 text-center">20,000+ COMMUNITY MEMBERS</h1>
-        <p className="text-white text-sm md:text-lg mb-4 text-center capitalize">Well come to the ehsas lab COMMUNITY </p>
+        <p className="text-white text-sm md:text-lg mb-4 text-center capitalize">Welcome to the Ehsas Lab Community</p>
         <div className="w-full max-w-md flex flex-col md:flex-row items-center">
           <input
             type="email"

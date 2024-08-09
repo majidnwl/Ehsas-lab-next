@@ -18,12 +18,12 @@ const Header = () => {
               <div className=" relative px-2 flex items-center ">
                 <a href="/" className="md:flex block  md:gap-x-1">
                   <img className="h-[47px]" src="/eg.png" alt="" />
-                  {/* <h1 className="font-bold">Ehsas Lab</h1> */}
+                  {/* <h1 className="'">Ehsas Lab</h1> */}
                 </a>
                 {toogle ?
                   // 
 
-                  <ul className=" text-start gap-y-10 z-50 border-t-2 border-gray-400 px-4 pb-1 absolute top-[67px] left-[-1.4rem] w-screen  bg-black items-center md:hidden  md:font-bold">
+                  <ul className=" text-start gap-y-10 z-50 border-t-2 border-gray-400 px-4 pb-1 absolute top-[67px] left-[-1.4rem] w-screen  bg-black items-center md:hidden  md:'">
                     <Link href="/"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-[#132148]">Home</li></Link>
                     <Link href="/about"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-[#132148]">About</li></Link>
                     <Link href="/course"><li className="hover:border-b-2 hover:border-gray-600 hover:bg-[#132148]">Course</li></Link>
@@ -37,7 +37,7 @@ const Header = () => {
 
 
 
-              <ul className="md:flex z-auto md:items-center hidden md:gap-x-10 md:font-bold">
+              <ul className="md:flex z-auto md:items-center hidden md:gap-x-10 ">
                 <Link href="/"><li className="cursor-pointer active:text-[#132148] hover:border-b-2">Home</li></Link>
                 <Link href="/about"><li className="cursor-pointer active:text-[#132148] hover:border-b-2">About</li></Link>
                 <Link href="/course"><li className="cursor-pointer active:text-[#132148] hover:border-b-2">Course</li></Link>
