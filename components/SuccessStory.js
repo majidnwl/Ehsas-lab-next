@@ -27,7 +27,7 @@ const SuccessStory = () => {
     if (autoScroll) {
       const interval = setInterval(() => {
         handleNext();
-      }, 2000);  // 1-second interval
+      }, 1000);  // 1-second interval
       return () => clearInterval(interval);
     }
   }, [autoScroll]);
